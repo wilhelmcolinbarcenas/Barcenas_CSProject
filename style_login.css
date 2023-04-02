@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#navbar1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  #logo {
+	float: left;
+	padding: 7px 8px;
+	height: 2%;
+	width: 2%;
+}
+
+.navcontent {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navcontent:hover {
+  background-color: #111;
+}
+
+#body {
+    height: 74vh;
+    width: 100%;
+}
+
+#intro {
+    float: left;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#introhead {
+    text-align: center;
+    background-color: #FACFAD;
+    padding: 2%;
+}
+
+.introbody {
+    color: #F2F2F2;
+    background-color: #333;
+    padding: 5%
+}
+
+#loginform {
+    float: right;
+    height: 50%;
+    width: 25%;
+    margin-top: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-width: 2px
+}
+
+#formheader {
+    text-align: center;
+    padding-top: 10%;
+    height: 25%;
+    width: 100%;
+    color: #F2F2F2;
+    background-color: #333;
+}
+
+#form {
+    text-align: center;
+    height: 75%;
+}
+
+#error {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#username {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#password {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+input[type=text]:focus {
+    background-color: lightgray;
+    box-shadow: 0 0 5px #F5AC72;
+    border: 1px solid #F5AC72;
+}
+input::selection { background:black; color: white;}
+input::-moz-selection { background:black; color:white; }
+input::-webkit-selection { background:black; color:white; }
+
+#footer {
+	background-color: #F2F2F2;
+	height: 20vh;
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+#Maininfo {
+	padding-top: 3%;
+	padding-right: 5%;
+	float: right;       
+}
+
+#logo2{
+	height: 10%;
+	width: 10%;
+}
+
+.socmedicons {  
+	padding-top: 3%;
+	padding-right: 5%;
+	text-align: center;
+	float: right;
+}
+
+.contactinfo {
+	padding-top: 3%;
+	padding-right: 5%;
+	list-style-type: none;
+	float: left;
+ }
+
+#fb {
+	background: url(images/sprites.png) no-repeat -51px -51px;
+	width: 25px;
+	height: 25px;
+}
+
+#tw {
+	background: url(images/sprites.png) no-repeat -1px -51px;
+	width: 25px;
+	height: 25px;
+}
+
+#yt {
+	background: url(images/sprites.png) no-repeat -1px -201px;
+	width: 25px;
+	height: 24px;
+}
+
+#fb:hover {
+	background: url(images/sprites.png) no-repeat -58px -1px;
+	width: 12px;
+	height: 24px;
+}
+
+#tw:hover {
+	background: url(images/sprites.png) no-repeat -1px -5px;
+	width: 25px;
+	height: 21px;
+}
+
+#yt:hover {
+	background: url(images/sprites.png) no-repeat -2px -150px;
+	width: 22px;
+	height: 26px;
+}

@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#navbar1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#logo {
+	float: left;
+	padding: 7px 8px;
+	height: 2%;
+	width: 2%;
+}
+
+.navcontent {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navcontent:hover {
+  background-color: #111;
+}
+
+#mainhero {
+	width: 75%;
+	height: 75vh;
+	background-color: #FACFAD;
+	margin: auto;
+}
+
+#img1 {
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: white;
+	height: 25%;
+	width: 25%;
+	margin: 3% 2% 10% 13%;
+	padding: 5px;
+	float: left;
+}
+
+#img1:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+}
+
+#img2 {
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: white;
+	height: 15%;
+	width: 15%;
+	margin: 3% 2%;
+	padding: 5px;
+	float: left;
+}
+
+#img2:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+}
+
+#img3 {
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: white;
+	height: 25%;
+	width: 25%;
+	margin: 3% 10% 10% 2%;
+	padding: 5px;
+	float: left;
+}
+
+#img3:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+}
+
+.mainheaders {
+	text-align: center;
+	font-size: 200%;
+	padding: 50px 0 25px 0;
+}
+
+#headertext {
+	text-align: center;
+	padding: 0 0 50px 0;
+}
+
+#footer {
+	background-color: #F2F2F2;
+	height: 20vh;
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+#Maininfo {
+	padding-top: 2%;
+	padding-right: 5%;
+	float: right;       
+}
+
+#logo2{
+	height: 10%;
+	width: 10%;
+}
+
+.socmedicons {  
+	padding-top: 3%;
+	padding-right: 5%;
+	text-align: center;
+	float: right;
+}
+
+.contactinfo {
+	padding-top: 3%;
+	padding-right: 5%;
+	list-style-type: none;
+	float: left;
+}
+
+#fb {
+	background: url(images/sprites.png) no-repeat -51px -51px;
+	width: 5%;
+	height: 5%;
+}
+
+#tw {
+	background: url(images/sprites.png) no-repeat -1px -51px;
+	width: 25px;
+	height: 25px;
+}
+
+#yt {
+	background: url(images/sprites.png) no-repeat -1px -201px;
+	width: 25px;
+	height: 24px;
+}
+
+#fb:hover {
+	background: url(images/sprites.png) no-repeat -58px -1px;
+	width: 12px;
+	height: 24px;
+}
+
+#tw:hover {
+	background: url(images/sprites.png) no-repeat -1px -5px;
+	width: 25px;
+	height: 21px;
+}
+
+#yt:hover {
+	background: url(images/sprites.png) no-repeat -2px -150px;
+	width: 22px;
+	height: 26px;
+}
